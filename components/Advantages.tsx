@@ -8,21 +8,7 @@ const Advantages: React.FC = () => {
       title: "Vorbereitung ohne Stress",
       description: "Lernen Sie in Ihrem eigenen Tempo ohne Druck durch starre Stundenpläne."
     },
-    {
-      icon: "fa-headset",
-      title: "Persönliche Betreuung",
-      description: "Unsere Experten stehen Ihnen rund um die Uhr bei Fragen zur Seite."
-    },
-    {
-      icon: "fa-calendar-check",
-      title: "Jetzt lernen - später zahlen",
-      description: "Starten Sie Ihre Karriere heute und zahlen Sie bequem erst in 90 Tagen."
-    },
-    {
-      icon: "fa-book-open",
-      title: "Prof. Lernmaterialien",
-      description: "Strukturell vorbereitete Unterlagen und interaktive Quizzes für maximalen Erfolg."
-    },
+
     {
       icon: "fa-map-marked-alt",
       title: "Zeitlich & räumlich flexibel",
@@ -51,14 +37,12 @@ const Advantages: React.FC = () => {
           
           {/* Price Card */}
           <div className="bg-blue-600 p-8 rounded-2xl shadow-xl text-white flex flex-col justify-center items-center text-center transform hover:scale-105 transition-transform">
-            <h3 className="text-xl font-semibold mb-2 opacity-90">Alles inklusive für nur</h3>
             <div className="flex items-baseline gap-1 mb-4">
-              <span className="text-5xl font-bold">490€</span>
-              <span className="text-lg opacity-80">einmalig</span>
+              <span className="text-5xl font-bold">100% kostenlos</span>
             </div>
-            <p className="text-sm opacity-90 mb-6">Keine versteckten Kosten. Voller Zugriff auf alle Kursinhalte und Support.</p>
+            <p className="text-sm opacity-90 mb-6">Keine versteckten Kosten. Voller Zugriff auf alle Kursinhalte.</p>
             <a href="#kontakt" className="w-full bg-white text-blue-600 py-3 rounded-xl font-bold hover:bg-slate-100 transition-colors">
-              Jetzt Kurs sichern
+              Jetzt Kurs starten
             </a>
           </div>
         </div>

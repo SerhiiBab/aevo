@@ -41,7 +41,7 @@ const Advantages: React.FC = () => {
             {/*<span className="text-5xl font-bold">100% kostenlos</span>*/}
             </div>
             {/* <p className="text-sm opacity-90 mb-6">Keine versteckten Kosten. Voller Zugriff auf alle Kursinhalte.</p> */}
-            <a href="/about" className="w-full text-white-600 text-2xl py-3 rounded-xl font-bold ">
+            <a href="/about" className="w-full text-white-600 text-4xl py-3 rounded-xl font-bold ">
               Jetzt Kurs starten
             </a>
           </div>

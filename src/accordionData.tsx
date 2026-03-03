@@ -2253,7 +2253,7 @@ Die Führungsstile lassen sich traditionell in autoritäre, kooperative und situ
 
 1. Autoritär
 
-    Klare Regeln, Struktur und Sicherheit
+    Klare Regln, Struktur und Sicherheit
     Risiko: Demotivation, geringes Engagement
 2. Kooperativ
 

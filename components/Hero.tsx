@@ -1,5 +1,4 @@
 
-import React from 'react';
 
 const Hero: React.FC = () => {
   return (
@@ -24,7 +23,7 @@ const Hero: React.FC = () => {
             Starten Sie noch heute in Ihre Zukunft als qualifizierter Ausbilder.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <a href="#kontakt" className="bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold px-8 py-4 rounded-xl shadow-lg shadow-blue-600/30 transition-all transform hover:-translate-y-1">
+            <a href="/about" className="bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold px-8 py-4 rounded-xl shadow-lg shadow-blue-600/30 transition-all transform hover:-translate-y-1">
               Kurs jetzt starten
             </a>
             <a href="#inhalte" className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white text-lg font-bold px-8 py-4 rounded-xl border border-white/30 transition-all transform hover:-translate-y-1">

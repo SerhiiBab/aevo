@@ -1,5 +1,5 @@
 
-import React from 'react';
+
 
 const Advantages: React.FC = () => {
   const advantages = [
@@ -38,10 +38,10 @@ const Advantages: React.FC = () => {
           {/* Price Card */}
           <div className="bg-blue-600 p-8 rounded-2xl shadow-xl text-white flex flex-col justify-center items-center text-center transform hover:scale-105 transition-transform">
             <div className="flex items-baseline gap-1 mb-4">
-              <span className="text-5xl font-bold">100% kostenlos</span>
+            {/*<span className="text-5xl font-bold">100% kostenlos</span>*/}
             </div>
-            <p className="text-sm opacity-90 mb-6">Keine versteckten Kosten. Voller Zugriff auf alle Kursinhalte.</p>
-            <a href="#kontakt" className="w-full bg-white text-blue-600 py-3 rounded-xl font-bold hover:bg-slate-100 transition-colors">
+            {/* <p className="text-sm opacity-90 mb-6">Keine versteckten Kosten. Voller Zugriff auf alle Kursinhalte.</p> */}
+            <a href="/about" className="w-full text-white-600 text-2xl py-3 rounded-xl font-bold ">
               Jetzt Kurs starten
             </a>
           </div>

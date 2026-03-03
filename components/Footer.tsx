@@ -1,5 +1,4 @@
 
-import React from 'react';
 
 const Footer: React.FC = () => {
   return (
@@ -22,7 +21,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="mt-12 pt-8 border-t border-slate-800 text-center text-sm text-slate-500">
-          <p>© {new Date().getFullYear()} AEVO Express. Alle Rechte vorbehalten. Ihr Partner für die AdA-Prüfung.</p>
+          <p>© {new Date().getFullYear()} AEVO Express. Alle Rechte vorbehalten. Ihr Partner für die AdA-Prüfung. aevoexpress(at)gmail(dot)com</p>
         </div>
       </div>
     </footer>

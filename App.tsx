@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import KursSeite from './components/Kurs';
 import { accordionData } from './src/accordionData.tsx';
+import TestModule from './components/TestModule.tsx';
+import "./Styles.css";
 
 
 const App: React.FC = () => {
@@ -29,6 +31,7 @@ const App: React.FC = () => {
     }
   />
         <Route path="/about" element={< KursSeite data={accordionData} />} />
+        <Route path="/test" element={< TestModule />} />
       </Routes>
       <Footer />
     </div>

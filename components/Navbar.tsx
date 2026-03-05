@@ -28,6 +28,7 @@ const Navbar: React.FC = () => {
         <div className="hidden md:flex items-center gap-8">
           <a href="#vorteile" className={`hover:text-blue-600 transition-colors font-medium ${scrolled ? 'text-slate-600' : 'text-slate-600'}`}>Vorteile</a>
           <a href="#inhalte" className={`hover:text-blue-600 transition-colors font-medium ${scrolled ? 'text-slate-600' : 'text-slate-600'}`}>Studieninhalte</a>
+          <a href="/test" className={`hover:text-blue-600 bg-[#ebebeb] py-2 px-3 rounded-xl transition-colors font-medium ${scrolled ? 'text-slate-600' : 'text-slate-600'}`}>TEST</a>
           <Link to="/about"><div className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full transition-all font-semibold">Jetzt Starten</div></Link>
           
         </div>

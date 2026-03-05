@@ -1,0 +1,51 @@
+.certificate {
+  width: 210mm;
+  height: 297mm;
+  padding:8mm 24mm 24mm 24mm;
+  background: linear-gradient(to bottom, #fefefe 0%, /* верх белый */ #ffffff 10%, /* до 40% верх белый */ #cdedf9 50%, /* середина голубая */ #fefefe 75%, /* снизу обратно белый */ #fefefe);
+  ;
+  border: 2px solid black;
+}
+
+.test-main {
+    padding: 250px 30px 200px 30px;
+    min-height: 500px;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(187, 193, 205);
+}
+
+.test-main--inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.test-main--inputs input {
+    padding: 10px;
+
+}
+
+.start-taste {
+    font-weight: 700;
+    font-size: larger;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .certificate, .certificate * {
+    visibility: visible;
+  }
+
+  .certificate {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

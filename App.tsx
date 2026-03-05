@@ -10,7 +10,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import KursSeite from './components/Kurs';
 import { accordionData } from './src/accordionData.tsx';
 import TestModule from './components/TestModule.tsx';
-import "./Styles.css";
+import "./styles.css";
 
 
 const App: React.FC = () => {
